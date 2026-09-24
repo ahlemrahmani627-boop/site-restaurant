@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant</title>
     <link rel="stylesheet" href="style.css">
+    <p>🛒 Panier: <span id="panier-count">0</span></p>
 </head>
 <body>
     <header>
@@ -14,11 +15,10 @@
 
     <section class="menu">
         <h2>Notre Menu</h2>
-        <div class="cards">
-            <div class="card"><h3>Pizza Margherita</h3><p>12 DT</p></div>
-            <div class="card"><h3>Plat Makloub</h3><p>9 DT</p></div>
-            <div class="card"><h3>Salade Tunisienne</h3><p>6 DT</p></div>
-        </div>
+      <div class="card" onclick="ajouter('Pizza Margherita', 12)">
+    <h3>Pizza Margherita</h3><p>12 DT</p>
+    <small>👆 Clique pour ajouter</small>
+</div>
     </section>
 
     <section class="contact">
